@@ -1,4 +1,14 @@
-@radius: 0px;
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+    margin-top:125px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+width: auto; /* use this, or not */
+margin: auto;
+}
 
 body {
      margin: 0;
